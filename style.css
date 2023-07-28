@@ -1,0 +1,49 @@
+.sqcontainer {
+    display: grid;
+    grid-template-columns: repeat(var(--blockcount), 1fr);
+    width: 85vh;
+    height: 85vh;
+    border: black 1px solid;
+
+}
+
+.block {
+    border: black 1px solid; 
+}
+
+.hover{
+    background-color: black;
+}
+
+.gridcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    border: red 5px solid;
+}
+
+.btns {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 12px;
+    margin-left: 10%; 
+    gap: 12px;
+    width: fit-content;
+    border: green 5px solid;
+}
+
+#boxvalue, #reset {
+    min-height: 40px; 
+    font-size: 1.2rem;
+    width: fit-content;
+}
+
+.maincontainer {
+    display: flex;
+    flex-direction: column;
+    border: red 5px solid;
+}
+
+
