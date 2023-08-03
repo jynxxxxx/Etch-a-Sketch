@@ -11,8 +11,8 @@
     border: black 1px solid; 
 }
 
-.hover{
-    background-color: black;
+.fill{
+    background-color: var(--pencolor);
 }
 
 .gridcontainer {
@@ -20,7 +20,6 @@
     justify-content: center;
     align-items: center;
     height: 85vh;
-    border: red 5px solid;
 }
 
 .btns {
@@ -31,7 +30,6 @@
     margin-left: 10%; 
     gap: 12px;
     width: fit-content;
-    border: green 5px solid;
 }
 
 #boxvalue, #reset {
@@ -42,8 +40,10 @@
 
 .maincontainer {
     display: flex;
-    flex-direction: column;
-    border: red 5px solid;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px
 }
 
 

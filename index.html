@@ -8,9 +8,19 @@
 </head>
 <body>
     <div class="maincontainer">
-        <div class="btns">
-            <button id="boxvalue">Input New Area</button>
-            <button id="reset">Reset</button>
+        <div class = "optionsContainer">
+            <div class="penoptions">
+                    <label for="pencolor">Pen Color:</label>
+                    <input type="color" id="pencolor" name="pencolor" value="#000000">
+            </div>
+            <div class="slidecontainer">
+                <input type="range" min="16" max="100" value="16" class="slider" id="area">
+                <div id="sliderValue"></div>
+              </div>
+            <div class="btns">
+                <button id="clear">Clear Grid</button>
+                <button id="reset">Reset</button>
+            </div>
         </div>
         <div class="gridcontainer">
             <div class="sqcontainer"></div>
